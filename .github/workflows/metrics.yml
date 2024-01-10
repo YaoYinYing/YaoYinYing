@@ -9,7 +9,7 @@ on:
 jobs:
   github-metrics:
     name: Generate GitHub Metrics for README
-    runs-on: linux-armv7l
+    runs-on: oreo
     steps:
       - uses: lowlighter/metrics@latest
         with:
