@@ -1,5 +1,8 @@
 name: Metrics
 on:
+  push:
+    paths:
+      - '.github/workflows/metrics.yml' # monitor the main workflow script.
   schedule:
     - cron: "10,45 4,20 * * *"
   workflow_dispatch: null
